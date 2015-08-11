@@ -24,3 +24,21 @@
 #### they are used to demark expressions, and are evaluated against the scope object. They are not handlebars.
 ## Explain what 2-way data binding is.
 #### 2 way data binding in the ability to have data transfer btwn the view and the model and vice versa.
+## BONUS: Research the $digest loop
+#### digest loop has 2 components the watch list and the evalAsync list
+#### when we use a ng tag (bind an elements) we add a watch into the watch list
+#### when something changes with that property Angular changes that prop all places connected to Angular.
+## EXERCISE: With one single expression, prove that the context angular expressions run is not the window object. What is it instead?
+#### alert won't run b/c not operating on the window object
+## What are Angular expressions? How do they compare to EJS/ERB tags?
+#### angular expressions are code snippets that exist inside double curly brace bindings. They can't handle loops, arrays and objects like ERB and EJS
+
+##What happens when you write invalid code in an expression? What type of error do you get?
+#### you get regular html of the angular expressions.
+
+##What are Angular filters? Name 4 built-in filters, including one that we haven't used yet.
+#### they modify data that is shown on the view without modifying the data in the model. uppercase, lowercase, number, currency, orderBy are examples of filters.
+##We'll soon see how to create custom filters. What is a use case for a custom filter?
+#### custom filters can be useful when you need to filter the data in a specific way outside of the built in options.
+
+
